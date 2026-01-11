@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.layout {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 35%;
+  background: linear-gradient(180deg, #020024, #090979, #020024);
+  color: white;
+  padding: 40px;
+}
+
+.sidebar h1 {
+  color: #ffb703;
+}
+
+.subtitle {
+  margin-bottom: 30px;
+}
+
+.sidebar input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: none;
+}
+
+.sidebar button {
+  width: 100%;
+  padding: 12px;
+  background: #ffb703;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.content {
+  width: 65%;
+  padding: 30px;
+  overflow-y: auto;
+  background: #f5f6fa;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.risk {
+  color: red;
+  font-size: 32px;
+}
+
+.hint {
+  color: gray;
+  margin-top: 50px;
+}

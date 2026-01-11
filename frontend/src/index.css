@@ -1,0 +1,73 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FULL SCREEN ROOT */
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* APP LAYOUT */
+.app-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* LEFT PANEL */
+.sidebar {
+  width: 35%;
+  min-width: 360px;
+  background: linear-gradient(180deg, #071a2d, #03101f);
+  color: white;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* TEXT */
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffa500;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  font-size: 16px;
+  opacity: 0.85;
+  margin-bottom: 40px;
+}
+
+/* BUTTON */
+.run-btn {
+  background: #ffa500;
+  color: #071a2d;
+  border: none;
+  padding: 16px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  width: fit-content;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.run-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 165, 0, 0.4);
+}
+
+/* RIGHT PANEL */
+.main-content {
+  flex: 1;
+  background: #ffffff;
+}
